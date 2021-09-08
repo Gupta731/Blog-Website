@@ -94,7 +94,7 @@ class Comment(db.Model):
 # db.create_all()
 
 
-@app.route('/home')
+@app.route('/')
 def home():
     """Home route shows all blog posts"""
     posts = PostTable.query.all()
