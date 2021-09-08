@@ -3,3 +3,4 @@ werkzeug~=2.0.1
 sqlalchemy~=1.4.15
 wtforms~=2.3.3
 gunicorn==20.1.0
+Flask-SQLAlchemy==2.5.1
